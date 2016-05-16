@@ -1,12 +1,12 @@
 {
   "name": "tcp-to-ws",
-  "version": "0.0.0-alpha.1",
+  "version": "0.0.0-alpha.2",
   "description": "TCP to Websockets proxy translator",
   "main": "server.js",
   "bin": "./bin/tcp-to-ws.js",
   "scripts": {
     "start": "node ./bin/tcp-to-ws.js",
-    "test": "node node_modules/mocha/bin/mocha"
+    "test": "node ./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
